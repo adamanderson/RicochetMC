@@ -1,0 +1,46 @@
+# This is a general macro for testing features of the
+# RICOCHET/REvOLT-0 Monte Carlo v0.1 (RMC)
+#
+# Adam Anderson
+# adama@mit.edu
+# Joshua Spitz
+# spitzj@mit.edu
+
+/control/verbose 1
+/run/verbose 1
+#/tracking/verbose 1
+/RMC/verbose 3
+
+/RMC/Lab MITReactor
+/RMC/UseShield true
+/RMC/UseCryostat true
+/RMC/UseTower true
+/RMC/updateGeom
+/RMC/Source CRY
+/CRY/input returnNeutrons 1
+/CRY/input returnProtons 1
+/CRY/input returnGammas 1
+/CRY/input returnPions 1
+/CRY/input returnKaons 1
+/CRY/input date 7-1-2012
+/CRY/input latitude 90.0
+/CRY/input altitude 0
+/CRY/input subboxLength 10
+/CRY/update
+
+# uncomment the following lines if you want to visualize
+# /vis/open OGLIX 600x600-0+0
+# /vis/verbose errors
+# /vis/viewer/set/upVector 0 0 1
+# /vis/viewer/set/viewpointThetaPhi 85 270		# Slightly tilted
+# /vis/viewer/addCutawayPlane 0 0 0 cm 0 1 0
+# /vis/drawVolume
+# /vis/scene/add/axes            0 0 0 1 m
+# /vis/scene/add/trajectories
+# /vis/scene/add/hits
+# /vis/scene/endOfEventAction accumulate
+# /vis/viewer/zoomTo 3
+# /vis/viewer/pan 4 4
+
+/run/beamOn 1000000
+

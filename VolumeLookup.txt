@@ -1,0 +1,10 @@
+Volume Lookup Table
+1 = PhysicalTopOfVessel
+2 = PhysicalSideOfVessel
+3 = PhysicalBottomOfVessel
+4 = PhysicalFridgePipe
+5 = PhysicalVacuumPipe
+6 = InnerPoly
+7 = InnerLead
+8 = OuterPoly
+9 = OuterLead

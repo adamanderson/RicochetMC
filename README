@@ -1,0 +1,26 @@
+--------------------------------------------
+To do's
+
+-Fix passive shielding geometry.
+
+-Add capability to turn on/off filling of various TTrees.
+
+-Generalize the primary tree to include the possibility of multiple primaries per cosmic ray event.
+
+-Add 'radiogenic exposure time' to the 'runinfo 'TTree.
+
+-Investigate: 12th zip has low rate.
+
+-Improve documentation.
+
+-Upgrade Geant4.
+
+-Allow the ability to use passive shielding without active shielding.
+
+-Improve zip housing construction.
+
+-Add radiogenic generation on zip housing.
+
+-Generalize submission scripts. 
+
+-Compare to G48 data.

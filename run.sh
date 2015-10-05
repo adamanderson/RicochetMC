@@ -1,0 +1,1 @@
+./bin/Linux-g++/RMC_GGSim macros/run_CRY.mac 1

@@ -1,0 +1,14 @@
+Executable = run_ricochet.sh 
+Universe = vanilla
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+getenv = True
+Requirements = (Arch == "X86_64" && OpSys == "LINUX")
+Error=/dev/null
+Output=/dev/null
+Log=/dev/null
++AccountingGroup = "group_mitlns.spitzj"
+Queue 200
+
+
+
